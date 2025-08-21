@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pliancy－Koan - Mental Health Tracking App</title>
+    <meta name="description" content="Offline-first mobile app for tracking mental health episodes with breathing exercises and analytics. Track patterns, triggers, and find effective techniques for stabilization.">
+    <meta name="keywords" content="mental health, anxiety, depression, breathing exercises, mood tracking, pliancy koan">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🧠</span>
+                <span class="logo-text">Pliancy－Koan</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#breathing">Breathing</a>
+                <a href="#analytics">Analytics</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#download" class="cta-button">Download</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Track Your Mental Health Episodes
+                    <span class="hero-subtitle">with Intelligent Analytics</span>
+                </h1>
+                <p class="hero-description">
+                    An offline-first mobile app designed to help you track episodes of poor mental health states, 
+                    analyze patterns, and practice specialized breathing techniques for stabilization.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="primary-button">
+                        <span class="button-icon">📱</span>
+                        Download App
+                    </a>
+                    <a href="#features" class="secondary-button">
+                        <span class="button-icon">🔍</span>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-mockup">
+                    <div class="mockup-screen">
+                        <div class="mockup-header">
+                            <div class="mockup-status-bar"></div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-card">
+                                <div class="mockup-card-header">
+                                    <span class="mockup-icon">📊</span>
+                                    <span class="mockup-title">Current Episode</span>
+                                </div>
+                                <div class="mockup-severity">
+                                    <div class="severity-bar">
+                                        <div class="severity-fill" style="width: 70%"></div>
+                                    </div>
+                                    <span class="severity-text">Severity: 7/10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Comprehensive mental health tracking with privacy-first approach</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Episode Tracking</h3>
+                    <p>Track episodes of poor mental health states with detailed severity levels, symptoms, and triggers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Dynamic Updates</h3>
+                    <p>Update your condition throughout the day with "better/worse/no change" tracking for comprehensive analysis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧮</div>
+                    <h3>Weighted Severity</h3>
+                    <p>Advanced algorithm calculates episode severity based on duration and intensity for accurate assessment.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Pattern Analysis</h3>
+                    <p>Identify triggers, effective techniques, and temporal patterns to better understand your mental health.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌬️</div>
+                    <h3>Breathing Exercises</h3>
+                    <p>Specialized breathing techniques for different mental states and emergency stabilization.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacy First</h3>
+                    <p>100% offline operation with local data storage. Your information never leaves your device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breathing Section -->
+    <section id="breathing" class="breathing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Specialized Breathing Techniques</h2>
+                <p>Evidence-based breathing exercises for different mental health states</p>
+            </div>
+            <div class="breathing-grid">
+                <div class="breathing-card emergency">
+                    <div class="breathing-header">
+                        <span class="breathing-icon">🚨</span>
+                        <h3>4-7-8 Breathing</h3>
+                        <span class="breathing-tag">Emergency</span>
+                    </div>
+                    <p>Rapid relaxation technique for panic attacks and acute anxiety states.</p>
+                    <div class="breathing-pattern">
+                        <div class="pattern-step">
+                            <span class="step-number">4</span>
+                            <span class="step-text">Inhale</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">7</span>
+                            <span class="step-text">Hold</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">8</span>
+                            <span class="step-text">Exhale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="breathing-card stabilization">
+                    <div class="breathing-header">
+                        <span class="breathing-icon">🧘</span>
+                        <h3>Square Breathing</h3>
+                        <span class="breathing-tag">Stabilization</span>
+                    </div>
+                    <p>Balanced breathing technique for anxiety management and stress reduction.</p>
+                    <div class="breathing-pattern">
+                        <div class="pattern-step">
+                            <span class="step-number">4</span>
+                            <span class="step-text">Inhale</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">4</span>
+                            <span class="step-text">Hold</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">4</span>
+                            <span class="step-text">Exhale</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">4</span>
+                            <span class="step-text">Hold</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="breathing-card deep">
+                    <div class="breathing-header">
+                        <span class="breathing-icon">🎯</span>
+                        <h3>Diaphragmatic Breathing</h3>
+                        <span class="breathing-tag">Deep</span>
+                    </div>
+                    <p>Foundation breathing technique for depression episodes and general relaxation.</p>
+                    <div class="breathing-pattern">
+                        <div class="pattern-step">
+                            <span class="step-number">6</span>
+                            <span class="step-text">Deep Inhale</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">2</span>
+                            <span class="step-text">Brief Hold</span>
+                        </div>
+                        <div class="pattern-step">
+                            <span class="step-number">6</span>
+                            <span class="step-text">Slow Exhale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Section -->
+    <section id="analytics" class="analytics">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive Analytics</h2>
+                <p>Understand your patterns and track your progress</p>
+            </div>
+            <div class="analytics-grid">
+                <div class="analytics-card">
+                    <div class="analytics-icon">📊</div>
+                    <h3>Episode Statistics</h3>
+                    <ul>
+                        <li>Total episodes count</li>
+                        <li>Average severity levels</li>
+                        <li>Episode duration tracking</li>
+                        <li>Streak of good days</li>
+                    </ul>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-icon">🎯</div>
+                    <h3>Trigger Analysis</h3>
+                    <ul>
+                        <li>Most common triggers</li>
+                        <li>Environmental factors</li>
+                        <li>Social situations</li>
+                        <li>Health-related triggers</li>
+                    </ul>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-icon">🌬️</div>
+                    <h3>Technique Effectiveness</h3>
+                    <ul>
+                        <li>Breathing exercise success rates</li>
+                        <li>Most effective techniques</li>
+                        <li>Duration recommendations</li>
+                        <li>Personalized suggestions</li>
+                    </ul>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-icon">📅</div>
+                    <h3>Temporal Patterns</h3>
+                    <ul>
+                        <li>Weekly and monthly trends</li>
+                        <li>Time-of-day analysis</li>
+                        <li>Seasonal patterns</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Start Tracking Your Mental Health Today</h2>
+                <p>Join thousands of users who are taking control of their mental health with Pliancy－Koan</p>
+                <div class="download-buttons">
+                    <a href="#" class="app-store-badge">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1704067200" alt="Download on the App Store" style="width: 250px; height: 83px;">
+                    </a>
+                </div>
+                <div class="download-features">
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span>100% Free</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span>No Registration Required</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span>Works Offline</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span>Privacy First</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <div class="section-header">
+                <h2>Privacy & Security</h2>
+                <p>Your mental health data stays private and secure</p>
+            </div>
+            <div class="privacy-grid">
+                <div class="privacy-card">
+                    <div class="privacy-icon">🔒</div>
+                    <h3>Offline-First Design</h3>
+                    <p>All data is stored locally on your device. No cloud synchronization means your information never leaves your control.</p>
+                </div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">📱</div>
+                    <h3>No Registration</h3>
+                    <p>Start using the app immediately without creating an account or providing personal information.</p>
+                </div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">🚫</div>
+                    <h3>No Data Collection</h3>
+                    <p>We don't collect, store, or transmit any personal information. Your mental health journey remains completely private.</p>
+                </div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">🛡️</div>
+                    <h3>Secure Storage</h3>
+                    <p>Data is encrypted and stored securely on your device using industry-standard security practices.</p>
+                </div>
+            </div>
+            <div class="privacy-links">
+                <a href="privacy-policy.html" class="privacy-link">Privacy Policy</a>
+                <a href="terms-and-conditions.html" class="privacy-link">Terms & Conditions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">Pliancy－Koan</span>
+                    </div>
+                    <p>Empowering individuals to take control of their mental health through intelligent tracking and evidence-based techniques.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>App Features</h4>
+                    <ul>
+                        <li><a href="#features">Episode Tracking</a></li>
+                        <li><a href="#breathing">Breathing Exercises</a></li>
+                        <li><a href="#analytics">Analytics</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="mailto:tammkatrin55@gmail.com">Contact Us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pliancy－Koan. Created with ❤️ for mental health awareness.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
